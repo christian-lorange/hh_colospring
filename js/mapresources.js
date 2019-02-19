@@ -1,4 +1,4 @@
-//file updated at 02/19/19 15:15:54.500
+//file updated at 02/19/19 15:28:14.500
 
 
 function days() {
@@ -19,7 +19,7 @@ var hhicon = new LeafIcon({iconUrl: 'img/hh.png'}),
 
   var geolocate = document.getElementById('geolocate');
 
-  var mymap = L.map('mapid').setView([38.826408, --104.843569], 13);
+  var mymap = L.map('mapid').setView([40.015123, -105.271659], 13);
 
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY2xvcmFuZ2UiLCJhIjoiY2pqNXF4enk0MGVmYTNxcWh0Yzk1aGltMSJ9.GBc2xdGQ_iRYlssBEkX0Aw', {
     maxZoom: 18,
