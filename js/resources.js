@@ -1,4 +1,4 @@
-//file updated at 02/19/19 15:12:03.225
+//file updated at 02/19/19 15:15:54.500
 
 
 
@@ -61,7 +61,7 @@ $filterCheckboxes.on('change', function() {
 
 
   setTimeout(function(){
- $("#venues").load( "https://raw.githack.com/christian-lorange/hh_boulder/master/hh.html" );
+ $("#venues").load( "https://raw.githack.com/christian-lorange/hh_colospring/master/hh.html" );
   },200);
 
  
@@ -77,7 +77,7 @@ $filterCheckboxes.on('change', function() {
 
   setTimeout(function(){
 
-   $("#modal-content").load("https://raw.githack.com/christian-lorange/hh_boulder/master/cards.html");
+   $("#modal-content").load("https://raw.githack.com/christian-lorange/hh_colospring/master/cards.html");
   
    var d = new Date();
    var n = d.getDay();
